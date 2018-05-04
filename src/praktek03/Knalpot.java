@@ -1,9 +1,9 @@
 package praktek03;
 
 public class Knalpot {
-    String merek;
-    String warna;
-    double harga;
+    private String merek;
+    private String warna;
+    private double harga;
     
     void cetakinfo(){
         System.out.println("Merek \t: "+merek+"\n"+
