@@ -5,6 +5,7 @@ public class KnalpotAksi {
         k1.setMerek("Purbo");
         k1.setWarna("Perak");
         k1.setHarga(500);
+        //kw.setJenisnya
         
         k1.cetakinfo();
         
@@ -14,5 +15,14 @@ public class KnalpotAksi {
         System.out.println(k1.getWarna());
         System.out.println("Harganya \t: ");
         System.out.println(k1.getHarga());
+        
+        KnalpotWom kw = new KnalpotWom();
+        kw.setMerek("Toyobo");
+        kw.setWarna("Emas");
+        kw.setHarga(600);
+        kw.setJenisnya("Racing");
+        kw.cetakinfo();
+        System.out.println("Jenis   : "+kw.getJenisnya());
+        kw.suara();
     }
 }
