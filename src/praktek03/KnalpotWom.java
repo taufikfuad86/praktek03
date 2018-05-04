@@ -3,7 +3,16 @@ public class KnalpotWom extends Knalpot{
     private String jenisnya;
     
     void suara(){
-        System.out.println("Bruuumm")
+        System.out.println("Bruuumm");
     }
+
+    public String getJenisnya() {
+        return jenisnya;
+    }
+
+    public void setJenisnya(String jenisnya) {
+        this.jenisnya = jenisnya;
+    }
+    
     
 }
